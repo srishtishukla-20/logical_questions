@@ -1,13 +1,3 @@
-a="hello"
-b=a.split()
-j=""
-i=0
-while i<len(a):
-    if a[i] not in j:
-        j+=a[i]
-    i+=1
-print(j)
-#remove duplicates
 d=input("enter name")
 b=""
 i=0
@@ -22,7 +12,5 @@ while i<len(d):
     elif len(d)<=3:
         print(d)
         break
-
     i+=1
 print(b)
-#gives 1st 2 and last 2 output
